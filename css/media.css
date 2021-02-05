@@ -1,0 +1,272 @@
+@media (min-width: 1200px) {
+	.br-none {
+		display: none;
+	}
+	.example-1 {
+		display: none;
+	}
+	.img-complex-3 {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.example-2 {
+		display: none;
+	}
+	.card-complex-spisok {
+		display: none;
+	}
+}
+
+@media (min-width: 767px) {
+	.card-complex-text .no-br {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.example-3 {
+		display: none;
+	}
+}
+
+@media (min-width: 600px) {
+	.free-call-content-img-2 img {
+		display: none;
+	}
+}
+
+@media (min-width: 576px) {
+	.example-4 {
+		display: none;
+	}
+}
+
+@media (max-width: 1199px) {
+	.button-site button {
+		font-size: 10px;
+	}
+	.icon-card-complex-text {
+		font-size: 9.4902px;
+		line-height: 11px;
+	}
+	.min-dis {
+		padding-top: 27px;
+	}
+	.about-dis-green {
+		height: 290px;
+	}
+	.about-dis {
+		height: 290px;
+	}
+	.adresa-content {
+		padding: 40px 45px;
+	}
+	.example {
+		display: none;
+	}
+	.button-open button {
+		margin-left: 0;
+		margin-top: -187px;
+	}
+	.top-about-cont {
+		margin: -13px auto 0 auto;
+	}
+	.img-complex-2 {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.min-dis {
+		padding-top: 16px;
+	}
+	.icon-card-complex-text {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.min-dis-2 {
+		height: 144px;
+		margin-top: -94px;
+	}
+	.about-bottom h4 {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.about-dis-green {
+		height: 290px;
+	}
+	.about-dis-green {
+		font-size: 12px;
+		line-height: 18px;
+		padding: 32px 30px;
+	}
+	.about-dis {
+		font-size: 12px;
+		line-height: 18px;
+		padding: 32px 30px;
+	}
+	.map-google {
+		margin-top: -470px;
+	}
+	.example-1 {
+		display: none;
+	}
+	.button-open button {
+		margin-left: 0;
+		margin-top: -158px;
+	}
+	.top-about-cont {
+		margin: -42px auto 0 auto;
+	}
+	.img-complex-3 {
+		display: none;
+	}
+	.img-complex-2 {
+		display: block;
+	}
+	.complex-new {
+		display: none;
+	}
+	.opis-new-complex {
+		margin-top: -90px;
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.card-complex-text h1 {
+		font-size: 24px;
+		line-height: 29px;
+	}
+	.card-complex-text .no-br {
+		height: 0;
+	}
+	.card-complex-text h2 {
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.min-dis-2 {
+		height: 122px;
+		margin-top: -72px;
+		padding-top: 16px;
+	}
+	.min-dis {
+		padding-top: 25px;
+	}
+	.card-complex-text h1 {
+		width: auto;
+	}
+	.example-2 {
+		display: none;
+	}
+	.about-dis-green {
+		height: 170px;
+		margin-bottom: 25px;
+	}
+	.about-dis {
+		height: 170px;
+		margin-bottom: 25px;
+	}
+	.about-min {
+		height: 100px;
+	}
+	.opis-new-complex {
+		margin-top: -122px;
+	}
+	.top-about {
+		margin-top: -99px;
+		padding-top: 70px;
+	}
+	.button-open button {
+		margin-top: -100px;
+	}
+}
+
+@media (max-width: 575px) {
+	.card-complex-text h1 {
+		text-align: center;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.card-complex-text h2 {
+		text-align: center;
+	}
+	.adres-complex {
+		text-align: left;
+	}
+	.icon-card-complex-text {
+		font-size: 10.5052px;
+		line-height: 12px;
+	}
+	.min-dis {
+		margin-top: -171px;
+	}
+	.img-complex img {
+		margin-bottom: 105px;
+	}
+	.padding-left-0 {
+		padding-left: 15px;
+	}
+	.about-bottom h3 {
+		font-size: 18px;
+	}
+	.logo-rams img {
+		width: 98px;
+	}
+	.tel-contact a {
+		font-size: 18px;
+	}
+	.example-3 {
+		display: none;
+	}
+	.button-open button {
+		background-image: url(../img/button-mob.svg);
+		margin-top: -100px;
+	}
+	.about-dis-green {
+		height: 200px;
+	}
+	.about-dis {
+		height: 200px;
+	}
+	.about-min {
+		height: 100px;
+	}
+	.sale {
+		margin-left: -8px;
+	}
+	.opis-new-complex {
+		margin-top: -200px;
+	}
+	.button-site-new button {
+		margin-top: 30px;
+	}
+	.opis-new-complex {
+		padding:0;
+		display: grid;
+		align-content: center;
+		padding: 0 30px;
+		height: 150px;
+	}
+	.top-about {
+		margin-top: -100px;
+		padding-top: 0;
+	}
+}
+
+@media (max-width: 486px) {
+	.thank-site-4 {
+		width: 290px;
+	}
+	.thank-site-1 {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+	.icon-card-complex img {
+		width: 50%;
+	}
+}

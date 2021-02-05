@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: plag/
+Disallow: vendor/
+Disallow: js/
+Disallow: send-contact.php
+Host: ramspromo.kz
