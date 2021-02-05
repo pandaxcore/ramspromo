@@ -95,9 +95,9 @@ if(isset($_POST['phone'])){
   $name = $_POST['name'];
   $phone = $_POST['phone'];
   $email = $_POST['email'];
-
-  $zk = $_POST['zk'];
-  $note = $_POST['note'];
+  $date = $_POST['date'];
+  // $zk = $_POST['zk'];
+  // $note = $_POST['note'];
 
   $utm_source = $_POST['utm_source'];
   $utm_medium = $_POST['utm_medium'];
@@ -110,8 +110,9 @@ if(isset($_POST['phone'])){
       "name" => $name,
       "phone" => $phone,
       "email" => $email,
-      "zk" => $zk,
-      "note" => $note,
+      "lead_comment" => $date,
+      // "zk" => $zk,
+      // "note" => $note,
 
       "lead_fields" => [
           '311489' => $url,

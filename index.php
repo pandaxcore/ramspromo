@@ -9,6 +9,7 @@
     <link rel=stylesheet href=fonts/Montserrat/stylesheet.css>
     <link rel=stylesheet href="css/style.css?ver=0.1.12">
     <link rel=stylesheet href="css/media.css?ver=0.1.12">
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css"/>
     <title>RAMS Казахстан - Строительная компания | RAMS Qazaqstan</title>
     <link rel=apple-touch-icon sizes=57x57 href=img/favicon/apple-icon-57x57.png>
     <link rel=apple-touch-icon sizes=60x60 href=img/favicon/apple-icon-60x60.png>
@@ -114,7 +115,12 @@
                 <div class="col-4 col-sm-6">
                     <div class=logo-rams><img src=img/logo-rams.svg></div>
                 </div>
+                
                 <div class="col-8 col-sm-6">
+                    <a class="Update" href="#popup-link" data-toggle="modal" data-target="#myModal"><img src="img/video-calling-app.svg" alt="" srcset="" style="width: 25px;"></a>
+                    <div class=free-call style="float: left;">
+                        <a class="Update" href="#popup-link" data-toggle=modal data-target=#free-call></a>
+                    </div>
                     <div class=tel-contact>
                         <a href=tel:+77272224444>+7 (727) <span>222 4444</span></a><br>
                     </div>
@@ -173,6 +179,60 @@
             </div>
         </div>
     </div>
+    
+    <!-- MY START -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Отправьте заявку для видеозвонка</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="thank.php">
+                    <p>
+                        <div class="block_div" style="float: right; margin: auto;">
+                            <input type="text" value="" name="date" id="datetimepicker11"/>
+                        </div>
+                    </p>
+                    <p><strong>Name</strong><br>
+                        <input type="text" id="name" name="name">
+                    </p>
+                    <p><strong>Phone</strong><br>
+                        <input type="text" id="phone" name="phone">
+                    </p>
+                    <p><strong>mail</strong><br>
+                        <input type="text"  name="email">
+                    </p>
+                
+                    <!-- Hidden UTM Fields START -->
+                    <input type="hidden" name="utm_source" value="<?php $utm_source = $_GET['utm_source']; echo $utm_source; ?>">
+                    <input type="hidden" name="utm_medium" value="<?php $utm_medium = $_GET['utm_medium']; echo $utm_medium; ?>">
+                    <input type="hidden" name="utm_campaign" value="<?php $utm_campaign = $_GET['utm_campaign']; echo $utm_campaign; ?>">
+                    <input type="hidden" name="utm_content" value="<?php $utm_content = $_GET['utm_content']; echo $utm_content; ?>">
+                    <input type="hidden" name="utm_term" value="<?php $utm_term = $_GET['utm_term']; echo $utm_term; ?>">
+                    <!-- Hidden UTM Fields END -->
+                    <div style="margin-top: 50px;">
+                        <input type="checkbox" aria-label="Checkbox for following text input" style="float:left; margin-right: 10px; margin-top: 6px;">
+                        <p>Я согласен(а) на обработку моих персональных данных.</p>
+                    </div>
+                    
+                    <p>
+                        <input type="submit" value="Submit" name="submit">
+                    </p>
+                    
+                </form>
+            </div>
+            <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- MY END -->
     <div class=top-slider>
         <div class=example></div>
     </div>
@@ -1507,5 +1567,14 @@
             return true
         })
     });</script>
+
+<script type="text/javascript" src="js/jquery.datetimepicker.full.min.js"></script>
+<script type="text/javascript">
+    
+    $('#datetimepicker11').datetimepicker({
+        inline:true
+    });
+
+</script>
 </body>
 </html>
